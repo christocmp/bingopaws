@@ -1,0 +1,175 @@
+
+
+/* Flytonic Buttons */
+a.flybutton{
+    background:#0795ED; /* for non-css3 browsers */
+ 	color:#FFF !important;
+ 	border-radius:5px;
+	-moz-border-radius: 5px;
+ 	line-height:1em;
+ 	padding:9px 11px 10px 11px;
+ 	border-width: 1px;
+ 	border-style: solid;
+ 	text-align: center;
+ 	text-shadow: 0 1px 1px #666;
+	text-decoration: none !important;
+	box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 2px rgba(0, 0, 0, 0.2);
+	background-image: -moz-linear-gradient(bottom, #097bc2 0%, #2ba6f3 100%);
+	background-image: -webkit-linear-gradient(bottom, #097bc2 0%, #2ba6f3 100%);
+	display: inline-block;
+	margin:0 .5em 1em .5em;
+	border-color:#0795ED;
+}
+
+
+a.flybutton.red {
+	background:#B00303; /* for non-css3 browsers */
+	border-color: #990303;
+	background-image: -moz-linear-gradient(bottom, #B00303 23%, #DE0D0D 69%);
+	background-image: -webkit-linear-gradient(bottom, #B00303 23%, #DE0D0D 69%);
+}
+
+
+a.flybutton.yellow {
+	background:#D1AE00;/* for non-css3 browsers */
+	border-color:#C2A40F;
+	background-image: -moz-linear-gradient(bottom, #D1AE00 23%, #F5C800 69%);
+	background-image: -webkit-linear-gradient(bottom, #D1AE00 23%, #F5C800 69%);
+}
+
+a.flybutton.green {
+	background:#4bcc0a;/* for non-css3 browsers */
+	border-color:#42b807;
+	background-image: -moz-linear-gradient(bottom, #4ACC0A 0%, #54F205 69%);
+	background-image: -webkit-linear-gradient(bottom, #4ACC0A 0%, #54F205 69%);
+}
+
+a.flybutton.gray {
+	background:#eee;/* for non-css3 browsers */
+	border-color:#ccc;
+	background-image: -moz-linear-gradient(bottom, #eeeeee 23%, #f3f3f3 69%);
+	background-image: -webkit-linear-gradient(bottom, #eeeeee 23%, #f3f3f3 69%);
+}
+
+a.flybutton.orange {
+	background:#f7ad25;/* for non-css3 browsers */
+	border-color:#d68204;
+	background-image: -moz-linear-gradient(bottom, #ED9405 0%, #F7AD25 100%);
+	background-image: -webkit-linear-gradient(bottom, #ED9405 0%, #F7AD25 100%);
+}
+
+a.flybutton.purple{
+	background:#831CE3;/* for non-css3 browsers */
+	border-color:#5b09a8;
+	background-image: -moz-linear-gradient(bottom, #6807B8 22%, #831CE3 73%);
+	background-image: -webkit-linear-gradient(bottom, #6807B8 22%, #831CE3 73%);
+}
+
+a.flybutton.teal{
+	background:#06cfcf;/* for non-css3 browsers */
+	border-color:#07bdbd;
+	background-image: -moz-linear-gradient(bottom, #06CFCF  0%, #05EDED 69%);
+	background-image: -webkit-linear-gradient(bottom, #06CFCF 0%, #505EDED 69%);
+}
+
+a.flybutton.black{
+	background:#252525;/* for non-css3 browsers */
+	border-color:#111;
+	background-image: -moz-linear-gradient(bottom, #222222 23%, #353535 69%);
+	background-image: -webkit-linear-gradient(bottom, #222222 23%, #353535 69%);
+}
+
+a.flybutton.lg {  
+	font-size:1.4em; 
+	padding:13px 15px 14px 15px;
+	font-weight:600;
+}
+
+a.flybutton.sm { 
+	font-size:.9em;
+ 	padding:7px 9px 8px 9px;
+ }
+a.flybutton.med {
+	font-size:1.2em; 
+	padding:10px 12px 11px 12px;
+	font-weight:600;
+}
+
+a.flybutton.drk { 
+	color:#333 !important; 
+	text-shadow: 0 1px 3px #fff;
+}
+
+a.flybutton.lgt { 
+	color:#fff !important; 
+}
+
+a.flybutton:hover, 
+a.flybutton:active, 
+a.flybutton:visited {
+	opacity: 0.85; 
+	box-shadow:none;
+}
+
+
+span.flyspan.darrow { 
+	background:url(images/downarrow.png) no-repeat left center transparent; 
+	padding-left:20px; 
+}
+
+
+span.flyspan.info { 
+	background:url(images/info.png) no-repeat left center transparent; 
+	padding-left:20px; 
+}
+
+
+span.flyspan.error { 
+	background:url(images/error.png) no-repeat left center transparent; 
+	padding-left:20px; 
+}
+
+span.flyspan.check { 
+	background:url(images/check.png) no-repeat left center transparent; 
+	padding-left:20px; 
+}
+
+span.flyspan.warning { 
+	background:url(images/warn.png) no-repeat left center transparent; 
+	padding-left:20px; 
+}
+
+/* Flytonic Boxes */
+
+.fly_box {
+	margin:0 .5em 1.6em .5em;
+	padding:10px 50px;
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+}
+
+.fly_box.info {
+	background:#f8f8f8 url(images/info.png) no-repeat scroll 20px  45%;
+}
+
+.fly_box.alert {
+	background:#fbf5d9 url(images/warn.png) no-repeat scroll 20px  45%;
+	border-top:1px solid #eddd98;
+	border-bottom:1px solid #eddd98;
+}
+
+.fly_box.error {
+	background:#ffd8d2 url(images/error.png) no-repeat scroll 20px  45%;
+	border-top:1px solid #feaeaa;
+	border-bottom:1px solid #feaeaa;
+}
+
+.fly_box.download {
+	background:#f3ffdf url(images/downarrow.png) no-repeat scroll 20px  45%;
+	border-top:1px solid #d4eeaa;
+	border-bottom:1px solid #d4eeaa;
+}
+
+.fly_box.check {
+	background:#f8f8f8 url(images/check.png) no-repeat scroll 20px  45%;
+}

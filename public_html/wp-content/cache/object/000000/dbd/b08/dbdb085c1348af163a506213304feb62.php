@@ -1,0 +1,1 @@
+‡FT<?php exit; ?>a:1:{s:7:"content";a:6:{s:4:"path";s:61:"/srv/www/bingopaws.com/public_html/wp-content/uploads/2014/09";s:3:"url";s:51:"http://www.bingopaws.com/wp-content/uploads/2014/09";s:6:"subdir";s:8:"/2014/09";s:7:"basedir";s:53:"/srv/www/bingopaws.com/public_html/wp-content/uploads";s:7:"baseurl";s:43:"http://www.bingopaws.com/wp-content/uploads";s:5:"error";b:0;}}

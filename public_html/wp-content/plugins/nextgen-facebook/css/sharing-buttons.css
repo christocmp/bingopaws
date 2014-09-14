@@ -1,0 +1,53 @@
+/* Save an empty style text box to reload the default example styles.
+ * These styles are provided as examples only - modifications may be 
+ * necessary to customize the layout for your website. Social sharing
+ * buttons can be aligned vertically, horizontally, floated, etc.
+ */
+
+/* make sure the Facebook flyout does not get clipped */
+#page { overflow:visible; }
+
+/* The .ngfb-buttons class is common to all other button classes
+ * (excerpt, content, shortcode, widget). Any change made to this
+ * class will affect all other button layouts.
+ */
+.ngfb-buttons { }
+.ngfb-buttons img { border:none; }
+.ngfb-buttons img:hover { border:none; }
+
+/* fix the Facebook "like" flyout on 2012 based themes */
+.ngfb-buttons iframe { max-width:none; }
+
+/* A common style for each individual buttons.
+ * Apply styling only to the immediate divs that follow the class.
+ */
+.ngfb-buttons > div { 
+	display:inline-block;
+	vertical-align:bottom;
+	text-align:left;
+	line-height:20px;
+	padding:0;
+	margin:5px;
+	width:100px;
+	height:20px;
+}
+
+/* Define specific widths for each button.
+ * These defaults assume small button sizes with counters.
+ */
+.ngfb-buttons div.facebook-button { width:139px; }
+.ngfb-buttons div.gplus-button { width:99px; }
+.ngfb-buttons div.gplusone-button { width:75px; }
+.ngfb-buttons div.twitter-button { width:89px; }
+.ngfb-buttons div.linkedin-button { width:110px; }
+.ngfb-buttons div.pinterest-button { width:78px; }
+.ngfb-buttons div.reddit-button { width:130px; }
+.ngfb-buttons div.managewp-button { width:100px; }
+.ngfb-buttons div.stumbleupon-button { width:84px; }
+.ngfb-buttons div.tumblr-button { width:85px; }
+
+.ngfb-buttons div.fb-share-button { width:105px; }
+.ngfb-buttons div.fb-share-button span { 
+	display:block !important;
+	vertical-align:middle !important;
+}
